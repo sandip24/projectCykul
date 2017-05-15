@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *web;
+- (IBAction)button:(id)sender;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *back;
+@property (weak, nonatomic) IBOutlet UIToolbar *tool;
+- (IBAction)back:(id)sender;
 
 
 @end
